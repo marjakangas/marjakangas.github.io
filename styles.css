@@ -1,46 +1,47 @@
-/* Hyvä kuvaus ccs-tyllien määrityksestä löytyy esimerkiksi sivuilta: https://www.w3schools.com/css/default.asp*/
-
-/*Määritellään body-elementin taustaväriksi pinkki ja tekstin väriksi tumman sininen
-webbiselainten ymmärtämät valmiit värikoodit löytyy esimekiksi sivulta https://www.w3schools.com/cssref/css_colors.asp*/
-body {
-    background: pink;
-    color: darkblue;
+.carousel {
+    margin-top: 10px;
 }
 
-/*Määritellään h1-elementin fontiksi "Comic Sans MS" ja fontin kooksi 30 pikseliä.*/
-h1 {
-    font-family: "Comic Sans MS";
-    font-size: 30px;
+.carousel-item img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-/*Määritellään p-elementin: 
-    *fontin kooksi 12 pikseliä
-    *fontiksi arial(mikäli webselaimeen ei ole asennettu sitä, niin sitten valitaan seuraava fontti listalta.
-    * väriksi musta(useimmat kuvankäsittelyohjelmat tarjoavat tällaisen värin määrityksen)*/
-p {
-    font-size: 12px;
-    font-family: arial, georgia, serif; 
-    color: #000000; 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter: invert(100%);
 }
 
-/*Määritellään class-tyypin tyyli, joka voidaan ottaa käyttöön missä tahansa html-elementissä*/
-.owndottedborderclass {
-    border-style: dotted;
+.row {
+    margin-top: 10px;
 }
 
-/* Määritellään id:n tyyli. (huom! id:n tyyli voi olla käytössä vain yhdellä html-sivun elementillä)*/
-#uniqueElementP {
+.content-box {
+    margin: 5px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+}
+
+.content-box img {
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content-box p {
+    text-align: center;
+} 
+
+.container h1 {
     text-align: center;
 }
 
-/* Määritellään järjestetyn listan tyyli (lower-alpha=numerot korvaantuu pienillä kirjaimilla)*/
-ol {
-    list-style-type: lower-alpha;
-}
-
-
-/*Määritellään listan alirivin tyyli */ 
-li li {
-    list-style-type: square;
-}
-
+footer {
+    margin-top: 10px;
+    background-color: #aaaaaa;
+    color: white;
+    text-align: center;
+    
+} 
