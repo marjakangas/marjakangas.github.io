@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <title>Esimerkki sivu</title>
+        <meta charset="utf-8"/>
+        <!--Seuraava rivi tarvitaan ulkoisen tyylitiedoston lisäämiseksi html-tiedostoon-->
+        <link rel="stylesheet" href="styles.css">
+        
+        <!--Määritellään css-tyylejä, jotka ovat käytössä vain tässä html-tiedostossa.-->
+        <style>
+            h2 {
+                font-size: 20px;
+                font-weight: bold;
+                font-family: arial, georgia, serif; 
+                font-style: italic;
+                color: #00ff00; 
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <!--Tässä esimerkissä h1-elementin tyyyli tulee styles.css tiedostosta-->
+        <h1>Otsikon tyyli on määritelty styles.css-tiedostossa.</h1>
+        <h2>Alaotsikon tyylin on määritelyä on täydennetty html-tiedoston head-elementissä</h2>
+        
+        <!--Kappale-->
+        <p>Tämän lauseen tyyli tulee styles.css tiedostosta</p>
+        <p style="font-size: 9px; background-color: rgb(255,0,0);">Tämän lauseen tyyliä on täydennetty html-elementissä</p>
+        <p class="owndottedborderclass">Tämän lauseen tyyli on täydennetty class-attribuutin tyylillä</p>
+        <p id="uniqueElementP">Tämän lauseen tyyli on täydennetty elementin uniikin id:n tyylillä</p>
+        
+        <!--Järjestetty lista-->
+        <ol>
+            <li>Järjestetyn listan eka rivi</li>
+            <li>Järjestetyn listan toka rivi</li>
+        </ol>
+        
+        <!--Järjestämättömätön lista-->
+        <ul>
+            <li>
+                Listan ensimmäinen rivi
+                <ul>
+                    <li>Ensimmäisen rivin alirivi</li>
+                </ul>
+            </li>
+            <li>Listan toinen rivi</li>
+        </ul>
+        
+        <!--Kuvauslista-->
+        <dl> 
+            <dt>sanat</dt>
+                <dd> koostuvat kirjaimista</dd>
+            <dt>luvut</dt>
+                <dd> koostuvat numeroista</dd>
+        </dl>
+        
+        <!--Erikoiskerkkejä kuten copyright ja ö-->
+        <p>&copy;Laurea esimerkki 3B (Ky&ouml;sti)</p>
+    </body>
+</html>
