@@ -1,0 +1,275 @@
+body {
+	width:100%;
+	background-color:#EBEBEB;
+	font-family: "georgia", Times, serif;
+	font-size:120%;
+	}
+.main_tausta {
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	background-color:white;
+	border: 7px solid #024757;
+}
+.main_nav {position:relative;}
+.l_gray {background-color: #EBEBEB;}
+.teal_c {background-color:#024757;}
+.see_t {opacity: 0.8;}	
+.B_back {background-color:#000000;}
+.Ocra {background-color: #fcc944;}
+.white {background-color: white;}
+.paalogo {
+	width:100%;
+	max-height: 150px;
+	object-fit: contain;
+	}	
+.wider_text { 
+ padding: 20px;
+ letter-spacing: 2px;
+ line-height:0.8;
+}
+#drop_navi{
+	z-index:2;
+	width: 100%;
+	position:absolute;
+	margin-left: -10px;
+	margin-right: 10px;
+	margin-top:5px;
+	height:300px;
+	background-color:#000000 ;
+	border: 4px solid #024757;
+	transition: height 0.5s linear;
+}
+.side_links {
+	margin-left: 30px;
+	margin-top: 10px;
+	color: #FFFFFF;
+	font-family: "georgia", Times, serif;
+	font-size:120%;
+}
+.side_links:hover {
+	color: #fcc944;
+}
+
+.Teal_links {
+	color: #234D59; 
+	text-decoration:none;
+	}
+.Teal_links:hover {
+	color: #fcc944;
+	text-decoration:none;
+}	
+.navbar-toggler {
+	z-index:3;
+	margin-left: 65%;
+	margin-top:20px;
+}
+.navbar-toggler-icon {
+	background-color: #D4D4D4;
+	color: #234D59;
+	padding:10px;
+	width:60px;
+	height:60px;
+					
+}
+#pikku_kuva  {
+	width:20%;
+	margin-left:40%;
+	margin-right:40%;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.karuselli_kuva {
+width:90%;
+height: 500px;
+object-fit: scale-down;
+margin-left:5%;
+margin-right:5%;
+}
+.Br_kuva {
+	width:100%;
+	max-height: 100px;
+	object-fit: fill;
+	margin-bottom:15px;
+	margin-top:15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.taustalla{
+	position:relative;
+	z-index: 1;
+	width: 100%;
+	object-fit: cover ;
+	height:400px;
+}
+.menu_box {
+	width:70%;
+	margin-left:15%;
+	margin-right:15%;
+	margin-bottom:150px;
+}
+.puoliksi_päällä {
+	z-index: 2;
+	position: relative;
+	margin-top:-250px;
+}
+.alhaalla{
+	bottom: 0px;
+	position:relative;
+	margin-top: -150px;
+}
+.tekstitaustalla {
+		background-color:#000000;
+		opacity: 0.8;
+		color:white;
+}
+.keskitetty_otsikko {
+	text-align: center; 
+	padding-bottom:20px;
+	padding-top:20px;
+}
+.keskitetty_teksti {
+	text-align: center;
+}
+.ilmaa{
+	padding:10px;
+}
+.ilmaa2 {
+	margin-top:25px;
+}
+.ilmaa3{
+	margin-bottom:60px;
+}
+.ilmaa4 {
+	padding:45px;
+	}
+.ilmaa5 {
+	margin: 25px;
+}	
+.person_pic{
+	margin-bottom:30px;
+	margin-top:30px;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+}
+.contact_pic {
+	margin-bottom:30px;
+	margin-top:30px;
+	width:60%;
+	margin-left:20%;
+	margin-right:20%;
+}
+.B_button{ 
+	position:fixed;
+	margin-left:10px;
+	margin-top:157px;
+	z-index:2;
+	width:13%;
+}
+.B_button:hover {
+	width:15%;
+}
+.B_img {
+	width:175px;
+}
+.F_area{
+	width:50%;
+	margin:auto;
+	box-sizing: border-box;
+	padding:35px;
+}
+.F_font {
+	letter-spacing: 2px;
+	line-height:0.8;
+	padding:5px;
+}
+.W_T_area {
+	width:80%;
+	height:150px;
+	box-sizing: border-box;
+	border: 1px solid #024757;
+	border-radius: 4px;
+	display: block;
+}
+.W_T_area:focus {
+	border: 3px solid #fcc944;
+}
+.input {
+	width:60%;
+	border: 1px solid #024757;
+	box-sizing: border-box;
+	border-radius: 4px;
+	display: block;
+}
+input:focus {
+  border: 3px solid #fcc944;
+}
+.F_kuva {
+	background-image: url(Sign_right.png);
+	background-position: bottom;
+	background-size: 30%;
+	padding:5px;
+	background-repeat: no-repeat;
+}
+.Book_T_F {
+	width:85%;
+	margin: auto;
+	padding:25px;
+	box-sizing: border-box;
+}
+.Form_T {
+	width:85%;
+	display: inline;
+	box-sizing: border-box;
+}
+.Book_T_kuva{
+	background-image: url(Sign_Down.png);
+	background-position: top right;
+	background-size: 15%;
+	padding:10px;
+	background-repeat: no-repeat;
+	background-origin: content-box
+}
+.kuva_4 { 
+	max-width:100%;
+	height: 400px;
+	object-fit: fill;
+	position:relative;
+ }
+.kuva_5 {
+	width:100%;
+	height:400px;
+	object-fit: fill;
+	position:relative;
+	overflow: auto;
+}	
+.kuva_3 {
+	width:100%;
+	height:400px;
+	object-fit: fill;
+	position:relative;
+} 
+.kuva_2 {
+	width:100%;
+	height:400px;
+	object-fit: fill;
+	position:relative;
+}
+.kartta {
+	margin-left: 15%;
+	margin-right:15%;
+	width: 70%;
+	height:100%;
+	object-fit: contain;
+}
+.ala_bar {
+	min-height: 400px;
+}
+.special_hr {
+	width:50%;
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:17px;
+	margin-bottom:17px;
+}	
